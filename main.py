@@ -2,11 +2,12 @@ from dbinterface import DataBase
 
 
 def main():
+    """
+    :return:
+    """
     # auth.json
     db_result = DataBase(name='collection_name_results')
     db_request = DataBase(name='collection_name_questions')
-
-    db_result.add('dsfg', question_id=1)
 
     # while True:
     #     question()
@@ -15,10 +16,17 @@ def main():
 
 
 def question():
+    """
+    :return:
+    """
     pass
 
 
 def save_res(result: str):
+    """
+    :param result:
+    :return:
+    """
     pass
 
 

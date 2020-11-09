@@ -5,9 +5,9 @@ def main():
     """
     :return:
     """
+
     # auth.json
-    db_result = DataBase(name='collection_name_results')
-    db_request = DataBase(name='collection_name_questions')
+    db = DataBase(name='collection_name')
 
     # while True:
     #     question()
